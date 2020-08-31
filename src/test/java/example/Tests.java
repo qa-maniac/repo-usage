@@ -54,7 +54,4 @@ public class Tests {
         int b = 6;
         assertEquals(b / a, 3);
     }
-
-    // 172.17.255.255
-
 }
