@@ -3,8 +3,11 @@ package example;
 import environment.Environment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.springframework.util.Assert;
 import org.testng.annotations.Test;
 import ui.BasePage;
+
+import static org.testng.Assert.assertEquals;
 
 
 public class Tests {
@@ -22,5 +25,12 @@ public class Tests {
             e.printStackTrace();
         }
         basePage.getDriver().quit();
+    }
+
+    @Test
+    public void doTest1() {
+        int a = 2;
+        int b = 3;
+        assertEquals(a + b, 5);
     }
 }
