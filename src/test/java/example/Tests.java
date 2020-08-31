@@ -33,4 +33,11 @@ public class Tests {
         int b = 3;
         assertEquals(a + b, 5);
     }
+
+    @Test
+    public void doTest2() {
+        int a = 2;
+        int b = 3;
+        assertEquals(b - a, 1);
+    }
 }
