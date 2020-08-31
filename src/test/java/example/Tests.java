@@ -40,4 +40,15 @@ public class Tests {
         int b = 3;
         assertEquals(b - a, 1);
     }
+
+    @Test
+    public void doTest3() {
+        int a = 2;
+        int b = 3;
+        assertEquals(b * a, 6);
+    }
+
+
+    // 172.17.255.255
+
 }
