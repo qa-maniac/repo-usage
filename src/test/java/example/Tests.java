@@ -3,7 +3,6 @@ package example;
 import environment.Environment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.springframework.util.Assert;
 import org.testng.annotations.Test;
 import ui.BasePage;
 
