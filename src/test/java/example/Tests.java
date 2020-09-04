@@ -1,9 +1,11 @@
 package example;
 
 import environment.Environment;
+import io.restassured.response.Response;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import tools.zoho.ZohoApi;
 import ui.BasePage;
 
 import static org.testng.Assert.assertEquals;
@@ -47,10 +49,17 @@ public class Tests {
         assertEquals(b * a, 6);
     }
 
-//    @Test
-//    public void doTest4() {
-//        int a = 2;
-//        int b = 6;
-//        assertEquals(b / a, 3);
-//    }
+    @Test
+    public void doTest4() {
+        int a = 2;
+        int b = 6;
+        assertEquals(b / a, 3);
+    }
+
+    @Test
+    public void doTest5() {
+        ZohoApi api = new ZohoApi();
+        Response response = api.getUserByEmail("maksym.ivanov@elegro.eu");
+        System.out.println(response.prettyPrint());
+    }
 }
