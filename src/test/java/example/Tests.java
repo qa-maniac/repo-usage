@@ -29,33 +29,33 @@ public class Tests {
         basePage.getDriver().quit();
     }
 
-    @Test
-    public void doTest1() {
-        int a = 2;
-        int b = 3;
-        assertEquals(a + b, 5);
-    }
-
-    @Test
-    public void doTest2() {
-        int a = 2;
-        int b = 3;
-        assertEquals(b - a, 1);
-    }
-
-    @Test
-    public void doTest3() {
-        int a = 2;
-        int b = 3;
-        assertEquals(b * a, 6);
-    }
-
-    @Test
-    public void doTest4() {
-        int a = 2;
-        int b = 6;
-        assertEquals(b / a, 3);
-    }
+//    @Test
+//    public void doTest1() {
+//        int a = 2;
+//        int b = 3;
+//        assertEquals(a + b, 5);
+//    }
+//
+//    @Test
+//    public void doTest2() {
+//        int a = 2;
+//        int b = 3;
+//        assertEquals(b - a, 1);
+//    }
+//
+//    @Test
+//    public void doTest3() {
+//        int a = 2;
+//        int b = 3;
+//        assertEquals(b * a, 6);
+//    }
+//
+//    @Test
+//    public void doTest4() {
+//        int a = 2;
+//        int b = 6;
+//        assertEquals(b / a, 3);
+//    }
 
     @Test
     public void doTest5() {
