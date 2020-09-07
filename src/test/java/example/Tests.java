@@ -67,6 +67,6 @@ public class Tests {
     @Test
     public void doTest6() {
         String time = System.getProperty(ZohoDataKey.TIME.toString());
-        System.out.println(time);
+        System.out.println("TIME = " + time);
     }
 }
