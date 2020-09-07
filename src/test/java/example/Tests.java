@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import tools.zoho.ZohoApi;
+import tools.zoho.ZohoDataKey;
 import ui.BasePage;
 
 import static org.testng.Assert.assertEquals;
@@ -61,5 +62,11 @@ public class Tests {
         ZohoApi api = new ZohoApi();
         Response response = api.getUserByEmail("maksym.ivanov@elegro.eu");
         System.out.println(response.prettyPrint());
+    }
+
+    @Test
+    public void doTest6() {
+        String time = System.getProperty(ZohoDataKey.TIME.toString());
+        System.out.println(time);
     }
 }
