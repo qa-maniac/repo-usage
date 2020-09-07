@@ -66,6 +66,24 @@ public class Tests {
 
     @Test
     public void doTest6() {
+        String clientId = System.getProperty(ZohoDataKey.CLIENT_ID.toString());
+        System.out.println("CLIENT_ID = " + clientId);
+
+        String clientGrandToken = System.getProperty(ZohoDataKey.CLIENT_GRANT_TOKEN.toString());
+        System.out.println("CLIENT_GRANT_TOKEN = " + clientGrandToken);
+
+        String clientSecret = System.getProperty(ZohoDataKey.CLIENT_SECRET.toString());
+        System.out.println("CLIENT_SECRET = " + clientSecret);
+
+        String redirectUri = System.getProperty(ZohoDataKey.REDIRECT_URI.toString());
+        System.out.println("REDIRECT_URI = " + redirectUri);
+
+        String refreshToken = System.getProperty(ZohoDataKey.REFRESH_TOKEN.toString());
+        System.out.println("REFRESH_TOKEN = " + refreshToken);
+
+        String authToken = System.getProperty(ZohoDataKey.AUTHTOKEN.toString());
+        System.out.println("AUTHTOKEN = " + authToken);
+
         String time = System.getProperty(ZohoDataKey.TIME.toString());
         System.out.println("TIME = " + time);
     }
