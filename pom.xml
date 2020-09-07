@@ -12,13 +12,13 @@
         <profile>
             <id>jenkins</id>
             <properties>
-                <CLIENT_ID>${env.CLIENT_ID}</CLIENT_ID>
-                <CLIENT_GRANT_TOKEN>${env.CLIENT_GRANT_TOKEN}</CLIENT_GRANT_TOKEN>
-                <CLIENT_SECRET>${env.CLIENT_SECRET}</CLIENT_SECRET>
-                <REDIRECT_URI>${env.REDIRECT_URI}</REDIRECT_URI>
-                <REFRESH_TOKEN>${env.REFRESH_TOKEN}</REFRESH_TOKEN>
-                <AUTHTOKEN>${env.AUTHTOKEN}</AUTHTOKEN>
-                <TIME>${env.TIME}</TIME>
+                <CLIENT_ID>${CLIENT_ID}</CLIENT_ID>
+                <CLIENT_GRANT_TOKEN>${CLIENT_GRANT_TOKEN}</CLIENT_GRANT_TOKEN>
+                <CLIENT_SECRET>${CLIENT_SECRET}</CLIENT_SECRET>
+                <REDIRECT_URI>${REDIRECT_URI}</REDIRECT_URI>
+                <REFRESH_TOKEN>${REFRESH_TOKEN}</REFRESH_TOKEN>
+                <AUTHTOKEN>${AUTHTOKEN}</AUTHTOKEN>
+                <TIME>${TIME}</TIME>
             </properties>
         </profile>
     </profiles>
